@@ -21,6 +21,7 @@ fn capture_screen() -> String {
     let temp_dir = std::env::temp_dir();
     let file_path = temp_dir.join("screenshot.png");
     let _ = image_buffer.save(&file_path);
+    println!("capture_screen");
     file_path.to_str().unwrap().to_owned()
 }
 

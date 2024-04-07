@@ -18,7 +18,10 @@
       },
       "window": {
         "show": true,
-        "hide": true
+        "hide": true,
+        "setSize": true,
+        "setPosition": true,
+        "setAlwaysOnTop": true
       },
       "protocol": {
         "asset": true,
@@ -32,14 +35,13 @@
     },
     "windows": [
       {
-        "fullscreen": true,
         "focus": false,
         "transparent": true,
         "resizable": false,
         "visible": false,
-        "alwaysOnTop": true,
         "skipTaskbar": true,
-        "label": "main"
+        "label": "main",
+        "decorations": false
       }
     ],
     "security": {
